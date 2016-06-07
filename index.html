@@ -1,0 +1,202 @@
+<html><head>
+        <title>Projeto II - Equipe 2</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript">
+            jQuery(document).ready(function($) { 
+                                            $(".scroll").click(function(event){        
+                                                event.preventDefault();
+                                                $('html,body').animate({scrollTop:$(this.hash).offset().top}, 1500);
+                                           });
+                                        });
+        </script>
+    </head><body>
+        <div class="cover" id="home">
+            <div class="navbar">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#"><span>Equipe 2</span></a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="active">
+                                <a href="#">Home</a>
+                            </li>
+                            <li class="active">
+                                <a href="#projeto" class="scroll">Projeto</a>
+                            </li>
+                            <li>
+                                <a href="#sobre" class="scroll">Sobre nós</a>
+                            </li>
+                            <li>
+                                <a href="#contato" class="scroll">Contato</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="cover-image" style="background-image : url('Black-Texture-HD-Background-Wallpapers.jpg')"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h1 class="text-inverse">Bem vindo</h1>
+                        <p class="text-center text-inverse">Site demonstrativo sobre os alunos da equipe 2, do Instituto Federal de
+                            Pernambuco. O grupo é composto por quatro pessoas, são eles: Alisson Gustavo,
+                            Maria Carolina, Luiz Zumba, Rodrigo Iglesias.&nbsp;Nesse site será abordado
+                            o tema que vamos&nbsp;desenvolver o projeto da matéria de projeto II, que
+                            será monitorado &nbsp;pelo professor Francisco Nascimento, e um breve resumo
+                            quem são os alunos e quais são as suas expectativas.&nbsp;
+                            <br>
+                            <br>
+                        </p>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="background-image background-image-fixed" style="background-image : url('2c9804e6-6f94-4b61-8be8-e35e753e32f3.jpg')"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6" id="projeto">
+                        <h1 class="text-primary">O projeto</h1>
+                        <h3></h3>
+                        <p>A definir.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="download.jpg" class="img-responsive">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section section-danger">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1 class="text-primary">A title</h1>
+                        <h3>A subtitle</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+                            ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis
+                            dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies
+                            nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                            Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In
+                            enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum
+                            felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus
+                            elementum semper nisi.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="download.jpg" class="img-responsive">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section section-primary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="sobre">
+                            <h1 class="text-center text-primary">Componentes da equipe</h1>
+                            <h2 class="text-center">Conheça nosso time de Programadores.&nbsp;
+                                <div>
+                                    <br>
+                                </div>
+                            </h2>
+                            <h4 contenteditable="true" class="text-center">Alunos do curso técnico de Informática para Internet.</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img class="center-block img-circle img-responsive" src="13239428_905857539523705_488303747862808025_n.jpg">
+                            <h3 class="text-center">Alisson Gustavo</h3>
+                            <p class="text-center">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Estudante do Instituto
+                                Federal de Pernambuco. Desenvolvedor Java &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                &nbsp; &nbsp; &nbsp;
+                                <br>Programador back-and e front-and. Conhecimentos &nbsp;em Java, php, Python,
+                                HTML, CSS, etc.</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="10401946_700601253371026_3345213370693986137_n.jpg" class="center-block img-circle img-responsive">
+                            <h3 class="text-center">Luiz Victor</h3>
+                            <p class="text-center">&nbsp; &nbsp;Estudante do Instituto Federal de Pernambuco.&nbsp;
+                                <br>Banco de&nbsp;Dados.</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="12832378_942815169129606_4807253132304586220_n.jpg" class="center-block img-circle img-responsive">
+                            <h3 class="text-center">Maria Carol</h3>
+                            <p class="text-center">&nbsp; &nbsp;Estudante do Instituto Federal de Pernambuco. Desenvolvedor
+                                java, html, css.&nbsp;</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="12524020_964797206944552_7606610716642496554_n.jpg" class="center-block img-circle img-responsive">
+                            <h3 class="text-center">Rodrigo Iglesias</h3>
+                            <p class="text-center">Estudante do IFPE , o responsável pelos servidores, e tem amplos conhecimentos
+                                em prpogramação &nbsp;back-and.
+                                <br>
+                                <br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="section section-warning">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <a href="#home" class="scroll"><i class="fa fa-4x fa-chevron-up fa-fw pull-right text-inverse"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div id="contato">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <h1>Equipe 2 - Projeto II</h1>
+                            <p>Jaboatão dos Guararapes, Piedade. Instituto Federal de Pernambuco, campus
+                                Jaboatão.&nbsp;
+                                <br>
+                                <br>© Copright 2016 Equipe 2 alunos do IFPE - Todos os direitos reservados.
+                                <br>
+                                <br>
+                            </p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="text-info text-right">
+                                <br>
+                                <br>
+                            </p>
+                            <div class="row">
+                                <div class="col-md-12 hidden-lg hidden-md hidden-sm text-left">
+                                    <a href="#"><i class="fa fa-3x fa-fw fa-instagram text-inverse"></i></a>
+                                    <a href="#"><i class="fa fa-3x fa-fw fa-twitter text-inverse"></i></a>
+                                    <a href="#"><i class="fa fa-3x fa-fw fa-facebook text-inverse"></i></a>
+                                    <a href="#"><i class="fa fa-3x fa-fw fa-github text-inverse"></i></a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 hidden-xs text-right">
+                                    <div id="contato"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <p>Entre em contato pelo email da equipe:&nbsp; equipe2.projetoII@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
+
+</body></html>
